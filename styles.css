@@ -164,10 +164,9 @@ body {
   background-repeat: no-repeat;
 }
 
-/* @media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) {
   .hero {
-
-    background-image: linear-gradient(262.69deg, #CA4ACB -0.43%, #F088F2 104.36%) url(../sharlandia-poltava/img/hero/wepik.png);
+    background-image: url(../img/hero/wepik@1x.png);
   }
 }
 
@@ -175,10 +174,10 @@ body {
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(262.69deg, #CA4ACB -0.43%, #F088F2 104.36%),
-      url(../images/galeria/peopleoffice1dectop@2x.jpg);
+    background-image: url(../img/hero/wepik@2x.png);
   }
-} */
+}
+
 
 .hero {
   font-family: 'Roboto', sans-serif;
