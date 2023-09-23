@@ -155,7 +155,7 @@ body {
 }
 
 .hero {
-  background-image: url(./img/hero/wepik.png);
+  background-image: url(../img/hero/wepik.png);
   max-width: 1440px;
   background-position: center;
   margin-left: auto;
