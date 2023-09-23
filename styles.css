@@ -155,7 +155,7 @@ body {
 }
 
 .hero {
-  background-image: url(../img/hero/wepik.png);
+  background-image: url('../img/hero/wepik.png');
   max-width: 1440px;
   background-position: center;
   margin-left: auto;
@@ -166,7 +166,7 @@ body {
 
 @media screen and (min-width: 769px) {
   .hero {
-    background-image: url(../img/hero/wepik@1x.png);
+    background-image: url('../img/hero/wepik.png');
   }
 }
 
@@ -174,7 +174,7 @@ body {
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../img/hero/wepik@2x.png);
+    background-image: url('../img/hero/wepik.png');
   }
 }
 
