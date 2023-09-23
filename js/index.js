@@ -10,5 +10,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Автоматичне переключення слайдів кожні 3 секунди
-  setInterval(sliderCourt, 3000);
+  setInterval(sliderCourt, 1000);
 });
