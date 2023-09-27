@@ -41,12 +41,6 @@ body {
 
 .container {
   max-width: 428px;
-
-
-}
-
-.container {
-  max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -197,6 +191,12 @@ img {
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(./img/hero/wepik.jpg);
+  }
+}
+
+@media screen and (max-width: 428px) {
   .hero {
     background-image: url(./img/hero/wepik.jpg);
   }
@@ -367,7 +367,8 @@ screen and (min-resolution: 2dppx) {
   border-color: transparent;
   border-style: solid;
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 65px;
+  margin-top: 30px;
 }
 
 .rubrik-list {
@@ -1104,20 +1105,25 @@ html {
 }
 
 .portfolio-info {
-  padding: 32px 1px;
-  border: 1px solid #e7e9fc;
+  /* padding: 17px 1px; */
+  padding-top: 17px;
+  border: 1px solid #252732;
   border-top: none;
   width: 260px;
+  padding-bottom: 10px;
+  height: 70px;
+  border-radius: 15px;
 }
 
 .portfolio-type {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--dark);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.2;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .portfolio-platform {
@@ -1126,4 +1132,23 @@ html {
   letter-spacing: 0.02em;
   color: var(--text);
   text-decoration: none;
+}
+
+.groop {
+  background: linear-gradient(90deg, #d6f8f9, #ebcced, #cafafa);
+}
+
+.katalog-button {
+  background: linear-gradient(90deg, #33d6d9, #ce5cd6, #209ed4);
+  color: var(--accent);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color var(--animation);
+  margin-left: 65px;
+  /* margin-top: 30px; */
 }
