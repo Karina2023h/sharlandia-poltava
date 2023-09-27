@@ -113,7 +113,15 @@ img {
   box-shadow: 0px 2px 1px rgb(222 31 213 / 8%), 0px 1px 1px rgb(195 26 216 / 16%), 0px 1px 6px rgb(164 62 166 / 8%);
 }
 
-.nav {
+/* .nav {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  gap: 40px;
+} */
+
+.section-one {
   height: 72px;
   display: flex;
   align-items: center;

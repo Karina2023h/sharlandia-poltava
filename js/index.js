@@ -4,11 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const slideCount = slides.length;
 
   function sliderCourt() {
-    slides[currentSlide].style.display = "none"; // Приховуємо поточний слайд
-    currentSlide = (currentSlide + 1) % slideCount; // Переходимо до наступного слайда
-    slides[currentSlide].style.display = "block"; // Відображаємо новий слайд
+    slides[currentSlide].style.display = "none";
+    currentSlide = (currentSlide + 1) % slideCount;
+    slides[currentSlide].style.display = "block";
   }
 
-  // Автоматичне переключення слайдів кожні 3 секунди
   setInterval(sliderCourt, 1000);
 });
