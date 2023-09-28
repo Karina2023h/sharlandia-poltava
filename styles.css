@@ -250,6 +250,18 @@ screen and (min-resolution: 2dppx) {
 
 }
 
+.heri-button,
+.button {
+  text-align: center;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 10px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding: 10px 16px;
+}
 
 .hero-button,
 .button {
@@ -280,10 +292,40 @@ screen and (min-resolution: 2dppx) {
   transition: background-color var(--animation);
   margin-left: 50px;
   margin-top: 30px;
+
+}
+
+.heri-button {
+  display: flex;
+  align-items: center;
+  background: -webkit-linear-gradient(90deg, #0eeaed, #ce51d7, #3dacdb);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(90deg, #33d6d9, #ce5cd6, #209ed4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: var(--accent);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color var(--animation);
+
+  margin-top: 30px;
+  text-decoration: none;
 }
 
 .hero-button:hover,
 .hero-button:focus {
+  background: -webkit-linear-gradient(90deg, #089fa1, #a109ac, #0b88be);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(90deg, #0cbec1, #bb1dc6, #0d85b8);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.heri-button:hover,
+.heri-button:focus {
   background: -webkit-linear-gradient(90deg, #089fa1, #a109ac, #0b88be);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(90deg, #0cbec1, #bb1dc6, #0d85b8);
