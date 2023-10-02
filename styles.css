@@ -52,13 +52,13 @@ img {
   margin-right: auto;
 } */
 
-.container {
+/* .container {
   width: 100%;
   max-width: 1159px;
   /* Максимальна ширина для більших екранів */
-  margin: 0 auto;
+/* margin: 0 auto;
   /* Центрує контейнер на екрані */
-}
+
 
 @media screen and (min-width: 768px) {
   .container {
