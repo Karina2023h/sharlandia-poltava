@@ -43,9 +43,9 @@ img {
 
 }
 
-/* 
-.container {
-  
+
+/* .container {
+
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -78,7 +78,7 @@ img {
   .header {
     padding-top: 0;
     padding-bottom: 0;
-    width: 375px;
+    /* width: 375px; */
   }
 }
 
