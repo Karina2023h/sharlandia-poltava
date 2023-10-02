@@ -17,29 +17,7 @@
 </head>
 
 <body>
-  <!-- <nav class="navbar">
-    <div class="container">
-      <div class="navbar_wrap">
-        <div class="hamb">
-          <div class="hamb_field" id="hamb">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </div>
-        <a href="#" class="logo" id="logo">Logo</a>
-        <ul class="menu" id="menu">
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Акція</a></li>
-          <li><a href="#">Переваги</a></li>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Контакти</a></li>
-        </ul>
-      </div>
 
-    </div>
-  </nav>
-  <div class="popup"></div> -->
   <header class="header">
     <div class="container main-nav">
       <div class="logo-lings">
@@ -76,7 +54,9 @@
           </li>
         </ul>
       </address>
-
+      <button class="menu-toggle js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <img src="./img/burger/burgermenu.png" alt="Іконка" width="30" height="30">
+      </button>
     </div>
   </header>
   <main>
@@ -374,16 +354,43 @@
       </form>
     </div>
   </div>
+
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="mobile-menu-btn js-close-menu">
+      <svg class="mobile-icon" width="10" height="10">
+        <use href="./img/icons.svg#icon-cross"></use>
+      </svg>
+    </button>
+
+    <ul class="mobile-nomer">
+      <li class="mobile-item list">
+        <a class="gare-item link" href="#katalogs">Каталог</a>
+      </li>
+      <li class="mobile-item list">
+        <a class="gare-item link" href="#pracei">Акція</a>
+      </li>
+      <li class="mobile-item list">
+        <a class="gare-item link" href="#kategirii">Переваги</a>
+      </li>
+      <li class="mobile-item list">
+        <a class="gare-item link" href="#kategirii">Про нас</a>
+      </li>
+      <li class="mobile-item list">
+        <a class="gare-item link" href="#footer">Контакти</a>
+      </li>
+    </ul>
+    <div class="mobile-div">
+      <a class="mobile-op link" href="tel:+380997796821">+38 (099) 779-68-21</a>
+      <a class="mobile-op link" href="mailto:rromanenkoigorr@gmail.com">rromanenkoigorr@gmail.com</a>
+    </div>
+  </div>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
     crossorigin="anonymous"></script>
   <script src="./js/modal.js"></script>
   <script src="./js/mobile.js"></script>
   <script src="./js/index.js"></script>
-  <script src="./js/mobiale.js"></script>
-
-
-
 
 </body>
 
