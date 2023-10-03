@@ -18,6 +18,7 @@
 
 <body>
 
+
   <header class="header">
     <div class="container main-nav">
       <div class="logo-lings">
@@ -328,20 +329,20 @@
           <use href="./img/icons.svg#icon-cross"></use>
         </svg>
       </button>
-      <form class="contact-form">
+      <form class="contact-form" onsubmit="sendEmailTelegrum(event)">
         <strong class="text-saglav">Зробити замовлення</strong>
         <label class="contact-form-label" for="Name">Ім'я*</label>
         <div class="contact-form-one">
-          <input class="input-name" type="text" name="user_name" id="Name" placeholder="Як до вас звертатися" />
+          <input class="input-name" type="text" name="name" placeholder="Як до вас звертатися" />
         </div>
         <label class="contact-form-label" for="Phone">Номер телефону*</label>
         <div class="contact-form-one">
-          <input class="input-name" type="tel" name="telefon_namb" id="Phone" placeholder="0996219803" />
+          <input class="input-name" type="tel" name="tel" placeholder="0996219803" />
 
         </div>
         <label class="contact-form-label" for="Email">Електрона адреса*</label>
         <div class="contact-form-one">
-          <input class="input-name" type="email" name="email_contact" id="Email" placeholder="(не обовязково)" />
+          <input class="input-name" type="email" name="email" placeholder="(не обовязково)" />
 
         </div>
         <label class="contact-form-info">
@@ -351,6 +352,7 @@
               Policy</a></span>
         </label>
         <button class="btn btn-send" type="submit">Замовити кульки</button>
+        <div class="form_send-result"></div>
       </form>
     </div>
   </div>
@@ -391,7 +393,7 @@
   <script src="./js/modal.js"></script>
   <script src="./js/mobile.js"></script>
   <script src="./js/index.js"></script>
-
+  <script src="./js/telegram.js"></script>
 </body>
 
 </html>
