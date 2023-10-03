@@ -102,8 +102,7 @@ img {
   gap: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-right: 35px;
+  padding-left: 35px;
 }
 
 .mobile-op {
@@ -140,8 +139,6 @@ img {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  /* padding-top: 80px; */
-  padding-left: 40px;
   padding-bottom: 40px;
   background: linear-gradient(90deg, #b4f1f2, #e7b7ea, #84cdef);
   z-index: 999;
