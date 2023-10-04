@@ -1441,7 +1441,6 @@ html {
 @media screen and (min-width: 320px) and (max-width: 1199px) {
   .modal {
     max-height: 90vh;
-    overflow-y: scroll;
   }
 }
 
@@ -1451,6 +1450,13 @@ html {
     padding: 60px 30px 30px 30px;
   }
 }
+
+#textform {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out;
+}
+
 
 .contact-form {
   display: flex;
@@ -1803,8 +1809,12 @@ html {
   }
 }
 
-
-
+.form_send-result {
+  color: rgb(4, 33, 61);
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+}
 
 /* mobil */
 
