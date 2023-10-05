@@ -334,7 +334,7 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (max-width: 428px) {
   .hero {
-    background-image: url(./img/hero/wepik.jpg);
+    background-image: url(./img/hero/wepik.jpg );
   }
 }
 
@@ -936,6 +936,7 @@ html {
   font-family: Montserrat;
   font-size: 50px;
   color: #fefefe;
+  text-align: center;
 }
 
 @media screen and (min-width: 479px) {
@@ -977,6 +978,7 @@ html {
   font-family: Montserrat;
   font-size: 26px;
   color: #fefefe;
+  text-align: center;
 }
 
 @media screen and (min-width: 479px) {
