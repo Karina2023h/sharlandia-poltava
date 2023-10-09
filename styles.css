@@ -578,7 +578,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 .logo {
-  width: 150px;
+  width: 165px;
   height: auto;
   display: block;
   /* margin: 0 auto; */
@@ -1320,7 +1320,7 @@ html {
     margin-top: 96px;
     text-align: center;
     margin-right: 40px;
-
+    margin-left: 80px;
   }
 }
 
