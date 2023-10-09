@@ -363,6 +363,7 @@ screen and (min-resolution: 2dppx) {
   letter-spacing: 0em;
   text-align: center;
   letter-spacing: 0.02em;
+  font-style: oblique;
 }
 
 @media screen and (min-width: 479px) {
@@ -378,6 +379,7 @@ screen and (min-resolution: 2dppx) {
     margin-bottom: 6px;
     font-size: 68px;
     line-height: 1.07;
+    font-style: oblique;
   }
 }
 
@@ -635,7 +637,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 /* ////////////////////////// */
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
   .rubrik-list {
     display: flex;
     gap: 40px;
@@ -650,7 +652,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 
-@media screen and (min-width: 429px) {
+@media screen and (min-width: 481px) {
   .section-thoo {
 
     padding-left: 20px;
@@ -673,7 +675,7 @@ screen and (min-resolution: 2dppx) {
   margin-top: 30px;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
   .footer-nav {
     display: flex;
     flex-direction: column;
@@ -684,7 +686,7 @@ screen and (min-resolution: 2dppx) {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
   .footer-info {
     text-align: center;
     display: flex;
@@ -694,7 +696,7 @@ screen and (min-resolution: 2dppx) {
   }
 }
 
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 480px) {
   .footer-nomer {
     display: flex;
     gap: 6px;
@@ -892,7 +894,7 @@ html {
 }
 
 
-@media screen and (min-width: 429px) and (max-width: 1199px) {
+@media screen and (min-width: 481px) and (max-width: 1199px) {
   .price-foto {
     margin-left: -15px;
   }
@@ -906,7 +908,7 @@ html {
   background: linear-gradient(90deg, #8bdcf0, #ec89dd, #a1bcdd);
 }
 
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 480px) {
   .prace {
     display: flex;
     height: 450px;
@@ -942,7 +944,7 @@ html {
   text-align: center;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .prase-text {
     font-weight: 700;
     line-height: 1.1;
@@ -962,7 +964,7 @@ html {
   margin-bottom: 40px;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .price-text {
     margin-left: 20px;
     padding-top: 70px;
@@ -984,7 +986,7 @@ html {
   text-align: center;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .prase-parag {
     font-weight: 700;
     line-height: 1;
@@ -1014,7 +1016,7 @@ html {
   padding-top: 15px;
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 480px) {
   .sliade {
     display: flex;
     width: 100%;
@@ -1026,7 +1028,7 @@ html {
   }
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .sliade {
     display: flex;
     width: 100%;
@@ -1040,7 +1042,7 @@ html {
   max-width: 300px;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .sliad-oter {
     border-radius: 20px;
     max-width: 330px;
@@ -1058,7 +1060,7 @@ html {
   padding-top: 15px;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .sliader-info {
     margin-bottom: 30px;
     margin-left: 120px;
@@ -1077,7 +1079,7 @@ html {
   text-align: center;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .ingo {
     color: #000000;
     font-size: 56px;
@@ -1102,7 +1104,7 @@ html {
   text-align: center;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .ingo-parag {
     color: #4c4b4b;
     font-size: 24px;
@@ -1131,7 +1133,7 @@ html {
   text-align: center;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .info-glavn {
     color: #1d1c1c;
     font-size: 34px;
@@ -1162,7 +1164,7 @@ html {
 
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .paragrafi {
     color: #000000;
     font-size: 26px;
@@ -1219,7 +1221,7 @@ html {
   font-weight: 600;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .footer-zaglav {
     color: #000000;
     font-family: Montserrat;
@@ -1241,7 +1243,7 @@ html {
 
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .par-footer {
     color: #000000;
     font-family: Montserrat;
@@ -1269,7 +1271,7 @@ html {
   margin-bottom: 8px;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .footer-tel {
     color: #000000;
     font-family: Montserrat;
@@ -1292,7 +1294,7 @@ html {
 }
 
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .footer-op {
     color: #000000;
     font-family: Montserrat;
@@ -1313,7 +1315,7 @@ html {
 
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .footer-icons {
     margin-top: 96px;
     text-align: center;
@@ -1332,7 +1334,7 @@ html {
 
 
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .nav-item {
     font-size: 21px;
     color: #000000;
@@ -1342,7 +1344,7 @@ html {
   }
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .footer-nomer {
     display: flex;
     gap: 8px;
@@ -1360,7 +1362,7 @@ html {
   align-items: center;
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 481px) {
   .iconsi {
     gap: 20px;
     display: flex;
@@ -1627,7 +1629,7 @@ html {
 }
 
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .groop {
     padding-top: 96px;
     padding-bottom: 120px;
@@ -1641,7 +1643,7 @@ html {
   margin-left: 10px;
 }
 
-@media screen and (min-width: 376px) and (max-width: 478px) {
+@media screen and (min-width: 378px) and (max-width: 480px) {
   .flex-list {
     display: flex;
     flex-wrap: wrap;
@@ -1650,7 +1652,7 @@ html {
   }
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 481px) {
   .flex-list {
     display: flex;
     flex-wrap: wrap;
@@ -1766,7 +1768,7 @@ html {
 
 
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
   .address {
     display: none;
   }
@@ -1778,7 +1780,7 @@ html {
   }
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 480px) {
   .modal {
     max-height: 90vh;
     overflow-y: scroll;
@@ -1791,7 +1793,7 @@ html {
 }
 
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
   .atom-list {
     display: flex;
     align-items: center;
@@ -1800,7 +1802,7 @@ html {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
   .iconka-itoma {
     display: flex;
     align-items: center;
@@ -1808,7 +1810,7 @@ html {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
   .section-onen {
     padding-top: 10px;
   }
