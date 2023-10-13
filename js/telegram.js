@@ -1,11 +1,11 @@
 "use strict";
 
-// const TELEGRAM_BOT_TOKEN = "6532109694:AAFjgg61QSRsktgtGTaBfRGOQU4QzcIVRW4";
-// const TELEGRAM_CHAT_ID = "@SharlandiaCase";
-// const API = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+const TELEGRAM_BOT_TOKEN = "6532109694:AAFjgg61QSRsktgtGTaBfRGOQU4QzcIVRW4";
+const TELEGRAM_CHAT_ID = "@SharlandiaCase";
+const API = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
 
-// async function sendEmailTelegrum(event) {
-//   event.preventDefault();
+async function sendEmailTelegrum(event) {
+  event.preventDefault();
 
   const form = event.target;
   const formBtn = document.querySelector(".btn btn-send button");
