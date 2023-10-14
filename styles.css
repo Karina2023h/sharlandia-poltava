@@ -96,6 +96,7 @@ img {
   text-align: left;
   text-transform: capitalize;
   color: #0c0c0c;
+  font-family: cursive;
 }
 
 .mobile-div {
@@ -111,6 +112,7 @@ img {
   font-size: 20px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  font-family: cursive;
 }
 
 .menu-toggle {
@@ -311,30 +313,26 @@ img {
 .hero {
   background-image: url(./img/hero/wepik.jpg);
   max-width: 1440px;
-  background-position: center;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 480px) {
   .hero {
     background-image: url(./img/hero/wepik.jpg);
+
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(./img/hero/wepik.jpg);
-  }
-}
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 479px) {
   .hero {
-    background-image: url(./img/hero/wepik.jpg );
+    background-image: url(./img/hero/hero.jpg);
+    height: 600px;
+    background-position: center;
   }
 }
 
@@ -344,26 +342,21 @@ screen and (min-resolution: 2dppx) {
   padding: 80px 0;
 }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 480px) {
   .hero {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding: 112px 0;
+    padding: 115px 0;
+
   }
 }
 
 .hero-title {
-  color: #ffffff;
-  font-family: Montserrat;
-  font-size: 50px;
-  font-weight: 700;
-  letter-spacing: 0em;
-  text-align: center;
-  letter-spacing: 0.02em;
-  font-style: oblique;
+  display: none;
 }
 
-@media screen and (min-width: 479px) {
+
+@media screen and (min-width: 481px) {
   .hero-title {
     color: #ffffff;
     max-width: 320px;
@@ -377,6 +370,7 @@ screen and (min-resolution: 2dppx) {
     font-size: 68px;
     line-height: 1.07;
     font-style: oblique;
+    display: block;
   }
 }
 
@@ -388,13 +382,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 .hero-paragraf {
-  color: #ffffff;
-  font-family: Montserrat;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 25px;
-  letter-spacing: 0.03em;
-  text-align: center;
+  display: none;
 
 }
 
@@ -408,7 +396,7 @@ screen and (min-resolution: 2dppx) {
     letter-spacing: 0.03em;
     text-align: left;
     margin-left: 50px;
-
+    display: block;
   }
 }
 
@@ -438,8 +426,6 @@ screen and (min-resolution: 2dppx) {
     height: 56px;
     border: none;
     border-radius: 10px;
-    /* margin-left: auto;
-  margin-right: auto; */
     padding: 10px 16px;
   }
 }
@@ -453,7 +439,7 @@ screen and (min-resolution: 2dppx) {
   height: 56px;
   border: none;
   border-radius: 10px;
-  padding: 10px 16px;
+
 }
 
 @media screen and (min-width: 479px) {
@@ -466,8 +452,6 @@ screen and (min-resolution: 2dppx) {
     height: 56px;
     border: none;
     border-radius: 10px;
-    /* margin-left: auto;
-  margin-right: auto; */
     padding: 10px 16px;
   }
 }
@@ -481,7 +465,7 @@ screen and (min-resolution: 2dppx) {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: var(--accent);
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  font-family: cursive;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -489,7 +473,7 @@ screen and (min-resolution: 2dppx) {
   letter-spacing: 0.04em;
   transition: background-color var(--animation);
   margin: auto;
-  margin-top: 20px;
+  margin-top: 320px;
 
 }
 
@@ -523,7 +507,7 @@ screen and (min-resolution: 2dppx) {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: var(--accent);
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  font-family: cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -595,7 +579,8 @@ screen and (min-resolution: 2dppx) {
 
 .itom {
   color: #000000;
-  font-family: Montserrat;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: cursive;
   font-size: 17px;
   font-weight: 600;
   line-height: 20px;
@@ -662,7 +647,7 @@ screen and (min-resolution: 2dppx) {
 .katalog-bool {
   color: #270817;
   font-size: 40px;
-  font-family: Montserrat;
+  font-family: cursive;
   line-height: 1.55;
   background-position: center;
   border-color: transparent;
@@ -853,6 +838,7 @@ html {
   width: 185px;
   margin-left: 5px;
   text-decoration: none;
+  font-family: cursive;
 }
 
 .block-texti {
@@ -866,6 +852,7 @@ html {
   width: 185px;
   margin-left: 5px;
   text-decoration: none;
+  font-family: cursive;
 }
 
 .block-foto {
@@ -935,7 +922,7 @@ html {
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.04em;
-  font-family: Montserrat;
+  font-family: cursive;
   font-size: 50px;
   color: #fefefe;
   text-align: center;
@@ -977,7 +964,7 @@ html {
   font-weight: 700;
   line-height: 1;
   letter-spacing: 0.04em;
-  font-family: Montserrat;
+  font-family: cursive;
   font-size: 26px;
   color: #fefefe;
   text-align: center;
@@ -1067,7 +1054,7 @@ html {
 .ingo {
   color: #000000;
   font-size: 35px;
-  font-family: Montserrat;
+  font-family: cursive;
   line-height: 1.55;
   font-weight: 700;
   background-position: center center;
@@ -1080,7 +1067,7 @@ html {
   .ingo {
     color: #000000;
     font-size: 56px;
-    font-family: Montserrat;
+    font-family: cursive;
     line-height: 1.55;
     font-weight: 700;
     background-position: center center;
@@ -1093,7 +1080,7 @@ html {
 .ingo-parag {
   color: #4c4b4b;
   font-size: 20px;
-  font-family: Montserrat;
+  font-family: cursive;
   font-weight: 700;
   background-position: center center;
   border-color: transparent;
@@ -1105,7 +1092,7 @@ html {
   .ingo-parag {
     color: #4c4b4b;
     font-size: 24px;
-    font-family: Montserrat;
+    font-family: cursive;
     font-weight: 700;
     background-position: center center;
     border-color: transparent;
@@ -1118,7 +1105,7 @@ html {
 .info-glavn {
   color: #1d1c1c;
   font-size: 22px;
-  font-family: Montserrat;
+  font-family: cursive;
   font-weight: 700;
   background-position: center center;
   border-color: transparent;
@@ -1134,7 +1121,7 @@ html {
   .info-glavn {
     color: #1d1c1c;
     font-size: 34px;
-    font-family: Montserrat;
+    font-family: cursive;
     font-weight: 700;
     background-position: center center;
     border-color: transparent;
@@ -1159,6 +1146,10 @@ html {
 
   margin-top: 15px;
 
+}
+
+.piri {
+  font-family: cursive;
 }
 
 @media screen and (min-width: 481px) {
@@ -1212,7 +1203,7 @@ html {
 
 .footer-zaglav {
   color: #000000;
-  font-family: Montserrat;
+  font-family: cursive;
   font-size: 25px;
   margin-bottom: 10px;
   font-weight: 600;
@@ -1221,7 +1212,7 @@ html {
 @media screen and (min-width: 481px) {
   .footer-zaglav {
     color: #000000;
-    font-family: Montserrat;
+    font-family: cursive;
     font-size: 30px;
     text-align: left;
     margin-bottom: 10px;
@@ -1233,7 +1224,7 @@ html {
 
 .par-footer {
   color: #000000;
-  font-family: Montserrat;
+  font-family: cursive;
   font-size: 16px;
   text-align: center;
   line-height: normal;
@@ -1243,7 +1234,7 @@ html {
 @media screen and (min-width: 481px) {
   .par-footer {
     color: #000000;
-    font-family: Montserrat;
+    font-family: cursive;
     font-size: 20px;
     text-align: left;
     line-height: normal;
@@ -1251,15 +1242,9 @@ html {
   }
 }
 
-/* .footer-info {
-  padding-left: 90px;
-
-} */
-
-
 .footer-tel {
   color: #000000;
-  font-family: Montserrat;
+  font-family: cursive;
   font-size: 15px;
   text-align: center;
   line-height: normal;
@@ -1271,7 +1256,7 @@ html {
 @media screen and (min-width: 481px) {
   .footer-tel {
     color: #000000;
-    font-family: Montserrat;
+    font-family: cursive;
     font-size: 19px;
     text-align: left;
     line-height: normal;
@@ -1283,7 +1268,7 @@ html {
 
 .footer-op {
   color: #000000;
-  font-family: Montserrat;
+  font-family: cursive;
   font-size: 16px;
   display: flex;
   line-height: normal;
@@ -1294,7 +1279,7 @@ html {
 @media screen and (min-width: 481px) {
   .footer-op {
     color: #000000;
-    font-family: Montserrat;
+    font-family: cursive;
     font-size: 19px;
     text-align: left;
     display: flex;
@@ -1324,7 +1309,7 @@ html {
 .nav-item {
   font-size: 18px;
   color: #000000;
-  font-family: Montserrat;
+  font-family: cursive;
   line-height: normal;
   font-weight: 500;
 }
@@ -1335,7 +1320,7 @@ html {
   .nav-item {
     font-size: 21px;
     color: #000000;
-    font-family: Montserrat;
+    font-family: cursive;
     line-height: normal;
     font-weight: 500;
   }
@@ -1370,7 +1355,7 @@ html {
 
 .footer-pidpus {
   color: #000000;
-  font-family: Montserrat;
+  font-family: cursive;
   font-size: 22px;
   margin-bottom: 10px;
   text-align: center;
@@ -1380,7 +1365,7 @@ html {
 @media screen and (min-width: 430px) {
   .footer-pidpus {
     color: #1b1a1a;
-    font-family: Montserrat;
+    font-family: cursive;
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
@@ -1713,6 +1698,7 @@ html {
 }
 
 .portfolio-type {
+  font-family: cursive;
   font-style: normal;
   font-weight: 600;
   letter-spacing: 0.02em;
