@@ -96,7 +96,7 @@ img {
   text-align: left;
   text-transform: capitalize;
   color: #0c0c0c;
-  font-family: cursive;
+  font-family: math;
 }
 
 .mobile-div {
@@ -104,6 +104,7 @@ img {
   display: flex;
   flex-direction: column;
   padding-left: 35px;
+  margin-top: -35px;
 }
 
 .mobile-op {
@@ -112,7 +113,7 @@ img {
   font-size: 20px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  font-family: cursive;
+  font-family: math;
 }
 
 .menu-toggle {
@@ -465,7 +466,7 @@ img {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: var(--accent);
   cursor: pointer;
-  font-family: cursive;
+  font-family: math;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -507,7 +508,7 @@ img {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: var(--accent);
   cursor: pointer;
-  font-family: cursive;
+  font-family: math;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -646,7 +647,7 @@ img {
 .katalog-bool {
   color: #270817;
   font-size: 40px;
-  font-family: cursive;
+  font-family: math;
   line-height: 1.55;
   background-position: center;
   border-color: transparent;
@@ -837,7 +838,7 @@ html {
   width: 185px;
   margin-left: 5px;
   text-decoration: none;
-  font-family: cursive;
+  font-family: math;
 }
 
 .block-texti {
@@ -851,7 +852,7 @@ html {
   width: 185px;
   margin-left: 5px;
   text-decoration: none;
-  font-family: cursive;
+  font-family: math;
 }
 
 .block-foto {
@@ -921,7 +922,7 @@ html {
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.04em;
-  font-family: cursive;
+  font-family: math;
   font-size: 50px;
   color: #fefefe;
   text-align: center;
@@ -932,7 +933,7 @@ html {
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.04em;
-    font-family: Montserrat;
+    font-family: math;
     font-size: 90px;
     color: #fefefe;
   }
@@ -963,7 +964,7 @@ html {
   font-weight: 700;
   line-height: 1;
   letter-spacing: 0.04em;
-  font-family: cursive;
+  font-family: math;
   font-size: 26px;
   color: #fefefe;
   text-align: center;
@@ -974,7 +975,7 @@ html {
     font-weight: 700;
     line-height: 1;
     letter-spacing: 0.04em;
-    font-family: Montserrat;
+    font-family: math;
     font-size: 48px;
     color: #fefefe;
   }
@@ -1053,7 +1054,7 @@ html {
 .ingo {
   color: #000000;
   font-size: 35px;
-  font-family: cursive;
+  font-family: math;
   line-height: 1.55;
   font-weight: 700;
   background-position: center center;
@@ -1066,7 +1067,7 @@ html {
   .ingo {
     color: #000000;
     font-size: 56px;
-    font-family: cursive;
+    font-family: math;
     line-height: 1.55;
     font-weight: 700;
     background-position: center center;
@@ -1079,7 +1080,7 @@ html {
 .ingo-parag {
   color: #4c4b4b;
   font-size: 20px;
-  font-family: cursive;
+  font-family: math;
   font-weight: 700;
   background-position: center center;
   border-color: transparent;
@@ -1091,7 +1092,7 @@ html {
   .ingo-parag {
     color: #4c4b4b;
     font-size: 24px;
-    font-family: cursive;
+    font-family: math;
     font-weight: 700;
     background-position: center center;
     border-color: transparent;
@@ -1104,7 +1105,7 @@ html {
 .info-glavn {
   color: #1d1c1c;
   font-size: 22px;
-  font-family: cursive;
+  font-family: math;
   font-weight: 700;
   background-position: center center;
   border-color: transparent;
@@ -1120,7 +1121,7 @@ html {
   .info-glavn {
     color: #1d1c1c;
     font-size: 34px;
-    font-family: cursive;
+    font-family: math;
     font-weight: 700;
     background-position: center center;
     border-color: transparent;
@@ -1148,7 +1149,7 @@ html {
 }
 
 .piri {
-  font-family: cursive;
+  font-family: math;
 }
 
 @media screen and (min-width: 481px) {
@@ -1202,7 +1203,7 @@ html {
 
 .footer-zaglav {
   color: #000000;
-  font-family: cursive;
+  font-family: math;
   font-size: 25px;
   margin-bottom: 10px;
   font-weight: 600;
@@ -1211,7 +1212,7 @@ html {
 @media screen and (min-width: 481px) {
   .footer-zaglav {
     color: #000000;
-    font-family: cursive;
+    font-family: math;
     font-size: 30px;
     text-align: left;
     margin-bottom: 10px;
@@ -1223,7 +1224,7 @@ html {
 
 .par-footer {
   color: #000000;
-  font-family: cursive;
+  font-family: math;
   font-size: 16px;
   text-align: center;
   line-height: normal;
@@ -1233,7 +1234,7 @@ html {
 @media screen and (min-width: 481px) {
   .par-footer {
     color: #000000;
-    font-family: cursive;
+    font-family: math;
     font-size: 20px;
     text-align: left;
     line-height: normal;
@@ -1243,7 +1244,7 @@ html {
 
 .footer-tel {
   color: #000000;
-  font-family: cursive;
+  font-family: math;
   font-size: 15px;
   text-align: center;
   line-height: normal;
@@ -1255,7 +1256,7 @@ html {
 @media screen and (min-width: 481px) {
   .footer-tel {
     color: #000000;
-    font-family: cursive;
+    font-family: math;
     font-size: 19px;
     text-align: left;
     line-height: normal;
@@ -1267,7 +1268,7 @@ html {
 
 .footer-op {
   color: #000000;
-  font-family: cursive;
+  font-family: math;
   font-size: 16px;
   display: flex;
   line-height: normal;
@@ -1278,7 +1279,7 @@ html {
 @media screen and (min-width: 481px) {
   .footer-op {
     color: #000000;
-    font-family: cursive;
+    font-family: math;
     font-size: 19px;
     text-align: left;
     display: flex;
@@ -1308,7 +1309,7 @@ html {
 .nav-item {
   font-size: 18px;
   color: #000000;
-  font-family: cursive;
+  font-family: math;
   line-height: normal;
   font-weight: 500;
 }
@@ -1319,7 +1320,7 @@ html {
   .nav-item {
     font-size: 21px;
     color: #000000;
-    font-family: cursive;
+    font-family: math;
     line-height: normal;
     font-weight: 500;
   }
@@ -1354,7 +1355,7 @@ html {
 
 .footer-pidpus {
   color: #000000;
-  font-family: cursive;
+  font-family: math;
   font-size: 22px;
   margin-bottom: 10px;
   text-align: center;
@@ -1364,7 +1365,7 @@ html {
 @media screen and (min-width: 430px) {
   .footer-pidpus {
     color: #1b1a1a;
-    font-family: cursive;
+    font-family: math;
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
@@ -1461,6 +1462,7 @@ html {
   margin-bottom: 1px;
   color: #090909;
   margin-top: 10px;
+  font-family: math;
 }
 
 .contact-form-one {
@@ -1478,6 +1480,7 @@ html {
   transition: border-color var(--anim-fas);
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: 1px solid transparent;
+  font-family: math;
 }
 
 .input-name:focus {
@@ -1532,6 +1535,7 @@ html {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
+  font-family: math;
   cursor: pointer;
   transition-property: bacground-color;
   transition: background-color var(--anim-fas);
@@ -1583,7 +1587,7 @@ html {
   font-size: 28px;
   color: #21243d;
   line-height: 1.3;
-  font-family: Hind, sans-serif;
+  font-family: math;
   font-weight: 700;
   text-transform: none;
   text-decoration: none;
@@ -1594,7 +1598,7 @@ html {
 .input-checkbox-text {
   font-size: 14px;
   color: #000000;
-  font-family: Montserrat;
+  font-family: math;
 }
 
 /* .section-inform {
@@ -1697,7 +1701,7 @@ html {
 }
 
 .portfolio-type {
-  font-family: cursive;
+  font-family: math;
   font-style: normal;
   font-weight: 600;
   letter-spacing: 0.02em;
