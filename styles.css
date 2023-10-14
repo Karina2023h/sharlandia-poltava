@@ -271,7 +271,7 @@ img {
 }
 
 .nav-link {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: math;
   color: var(--dark);
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -298,7 +298,7 @@ img {
 
 .info-link {
   color: var(--dark);
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: math;
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-style: normal;
