@@ -118,8 +118,8 @@ img {
 
 .menu-toggle {
   border: none;
-  padding: 0;
   background-color: transparent;
+
 }
 
 @media (min-width: 768px) {
@@ -243,6 +243,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .header {
+    height: 75px;
     width: 100%;
     z-index: 100;
     background-color: #ffffff;
@@ -569,6 +570,17 @@ img {
   /* margin: 0 auto; */
 
 }
+
+@media screen and (min-width: 481px) {
+  .logo {
+    width: 165px;
+    height: auto;
+    display: block;
+    /* margin: 0 auto; */
+
+  }
+}
+
 
 /* ////////////////////////////////////// */
 .section-onen {
@@ -1612,7 +1624,7 @@ html {
 
 /* //////////////////////////////////////////// */
 .groop {
-  padding-top: 20px;
+  padding-top: 80px;
   padding-bottom: 90px;
 }
 
