@@ -1012,7 +1012,7 @@ html {
 
 .sliad-oter {
   border-radius: 20px;
-  max-width: 300px;
+  width: 300px;
 }
 
 @media screen and (min-width: 481px) {
