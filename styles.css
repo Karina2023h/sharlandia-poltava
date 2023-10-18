@@ -1655,7 +1655,7 @@ html {
   padding-top: 17px;
   border: 1px solid #252732;
   border-top: none;
-  width: 260px;
+  width: auto;
   padding-bottom: 10px;
   height: 70px;
   border-radius: 15px;
