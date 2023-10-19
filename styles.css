@@ -989,6 +989,10 @@ html {
   padding-top: 15px;
 }
 
+.sliade:not(:first-child) {
+  display: none;
+}
+
 @media screen and (max-width: 480px) {
   .sliade {
     display: flex;
@@ -1012,7 +1016,7 @@ html {
 
 .sliad-oter {
   border-radius: 20px;
-  width: 300px;
+  width: 80%;
 }
 
 @media screen and (min-width: 481px) {
@@ -1655,7 +1659,8 @@ html {
   padding-top: 17px;
   border: 1px solid #252732;
   border-top: none;
-  width: auto;
+
+  width: 260px;
   padding-bottom: 10px;
   height: 70px;
   border-radius: 15px;

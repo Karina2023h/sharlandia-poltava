@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", function () {
     slides[currentSlide].style.display = "block";
   }
 
-  setInterval(sliderCourt, 2000);
+  setInterval(sliderCourt, 1000);
 });
