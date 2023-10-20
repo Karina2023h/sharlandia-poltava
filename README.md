@@ -1,1 +1,0 @@
-# sharlandia-poltava
